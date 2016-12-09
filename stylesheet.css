@@ -1,5 +1,20 @@
-nav {}
+body {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 2em;
+  margin: 0 auto;
+}
 
+nav navbar-header {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.navbar-right{
+  margin-right: 10px;
+}
+#main{
+  max-width: 1080px;
+  margin: 0 auto;
+}
 #avatar {
   width: 10em;
   min-width: 2em;
@@ -8,11 +23,13 @@ nav {}
 }
 
 #avatar2 {
-  margin-top: 20px;
   border-radius: 5px;
+margin: 0 auto;
+width: 100%;
+margin-top: 40px;
 }
 
-#social {}
+
 
 
 /* **********************TYPOGRAFY******************************************* */
@@ -25,13 +42,15 @@ h5,
 h6 {
   font-family: 'Bevan', cursive;
   color: peru;
+  padding-bottom: 20px;
+}
+section, .row{
+  padding-top: 30px;
 }
 
-body {
-  font-family: 'Pontano Sans', sans-serif;
-  font-size: 2em;
+#works{
+  padding-left: 10px;
 }
-
 #hero2 h1 {
   /*font-size: 2em;*/
   color: white;
@@ -40,6 +59,11 @@ body {
 #hero2 p {
   /*font-size: 1.5em;*/
   color: white;
+}
+#certifications{
+  ul li{
+    font-size: 1rem;
+  }
 }
 
 
@@ -61,7 +85,16 @@ body {
 }
 
 #hero2 {
-  max-width: 1280px;
+  background-image: url('https://s3.eu-central-1.amazonaws.com/camconsulting/madrid3.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1280px;
   max-height: 900px;
   width: 100%;
   min-width: 320px;
@@ -74,7 +107,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .homepage-hero-module {
