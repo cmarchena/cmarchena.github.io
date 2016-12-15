@@ -1,5 +1,6 @@
 body {
-  font-family: 'Pontano Sans', sans-serif;
+  /*font-family: 'Pontano Sans', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
   font-size: 2em;
   margin: 0 auto;
 }
@@ -41,6 +42,7 @@ h4,
 h5,
 h6 {
   font-family: 'Bevan', cursive;
+
   color: peru;
   padding-bottom: 20px;
 }
