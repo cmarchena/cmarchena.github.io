@@ -1,0 +1,272 @@
+---
+---
+@import  "bootstrap-sprockets";
+@import "bootstrap";
+@import url( 'https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+    /*font-family: 'Pontano Sans', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+nav navbar-header {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar-right {
+    margin-right: 10px;
+
+    a {
+        display: inline-flex;
+    }
+
+    li:last-child,
+    li:nth-child(7) {
+        margin-left: -20px;
+    }
+
+    li:nth-child(5) {
+        margin-right: 40px;
+    }
+}
+
+#main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#avatar {
+    width: 10em;
+    min-width: 2em;
+    margin: 0 auto 3em;
+}
+
+#avatar2 {
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+/* **********************TYPOGRAFY******************************************* */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bevan', cursive;
+    color: peru;
+    padding-bottom: 20px;
+}
+
+.row,
+section {
+    padding-top: 30px;
+}
+
+#works {
+    padding: 1em 0;
+    margin: 1em 0;
+}
+
+#work {
+    p {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#hero2 {
+    /*font-size: 2em;*/
+    h1,
+    h2 {
+        color: white;
+    }
+}
+
+#certifications {
+    ul li {
+        font-size: 1rem;
+    }
+}
+/* ********************** .TYPOGRAFY******************************************* */
+/* ********************** HERO COVER******************************************* */
+#hero {
+    max-width: 1280px;
+    max-height: 900px;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    padding: 6.5em;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero2 {
+    background-image: url('https://s3.eu-central-1.amazonaws.com/camconsulting/madrid3.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*max-width: 1280px;
+  max-height: 900px;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  padding: 6.5em;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: url('https://s3.eu-central-1.amazonaws.com/camconsulting/madrid3.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+
+.video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+/* ********************** .HERO COVER******************************************* */
+hr {
+    border: orange 2px solid;
+}
+
+.btn-default a {
+    color: darkgreen;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#lg-icon {
+    img {
+        height: 25px;
+        width: 25px;
+        margin: 0;
+    }
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#hero-container {
+    position: relative;
+    animation: landinginca1 3s ease-in-out;
+}
+
+#box1 {
+    position: absolute;
+    bottom: 55%;
+    left: 0;
+    width: 36%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1em 0.5em 0.5em 1em;
+    color: white;
+    z-index: 10;
+    font-size: 2rem;
+    animation: landinginca2 3s ease-in-out;
+    // transform: translate(200px, 0);
+    // transition: opacity 300ms ease-in-out;
+}
+
+#box2 {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 38%;
+    padding: 0 2em;
+    font-size: 2rem;
+    animation: landinginca3 3s ease-in-out;
+}
+@keyframes landinginca1 {
+  from{
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+
+}
+@keyframes landinginca2 {
+  from{
+    left: -30%;
+    opacity: 0;
+
+  }
+  to{
+    left: 0;
+    opacity: 1;
+  }
+
+}
+@keyframes landinginca3 {
+  from{
+    right: -30%;
+    opacity: 0.1;
+
+  }
+  to{
+    right: 0;
+    opacity: 1;
+  }
+
+}

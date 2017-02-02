@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy + Group Copy 2 + Group Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="300" cy="300" r="300"></circle>
+    </defs>
+    <g id="Social" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-69.000000, -212.000000)">
+            <g id="Group-Copy-+-Group-Copy-2-+-Group-Mask" sketch:type="MSLayerGroup" transform="translate(69.000000, 212.000000)">
+                <mask id="mask-2" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#002A64" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <g id="Group-Copy" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                    <g transform="translate(304.615385, 295.384615) rotate(-328.000000) translate(-304.615385, -295.384615) translate(-9.230769, 249.230769)">
+                        <path d="M618.461538,1.31868132 L618.461538,90.989011 L9.23076923,90.989011 L9.23076923,1.31868132 L618.461538,1.31868132 L618.461538,1.31868132 Z" id="Rectangle-1-Copy" fill="#FEFEFE"></path>
+                        <path d="M395.015367,41.8150542 L395.015367,67.9381304 L7.32305965,67.9381304 L7.32305965,41.8150542 L395.015367,41.8150542 L395.015367,41.8150542 Z" id="Rectangle-2-Copy" fill="#E21F25"></path>
+                        <path d="M621.041552,20.3101795 L621.041552,46.4332557 L233.349244,46.4332557 L233.349244,20.3101795 L621.041552,20.3101795 L621.041552,20.3101795 Z" id="Rectangle-2-Copy-3" fill="#E21F25"></path>
+                    </g>
+                </g>
+                <g id="Group-Copy-2" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                    <g transform="translate(308.529453, 292.938834) scale(1, -1) rotate(-328.000000) translate(-308.529453, -292.938834) translate(-9.932086, 246.784988)">
+                        <path d="M618.461538,1.31868132 L618.461538,90.989011 L9.23076923,90.989011 L9.23076923,1.31868132 L618.461538,1.31868132 L618.461538,1.31868132 Z" id="Rectangle-1-Copy" fill="#FEFEFE"></path>
+                        <path d="M471.784533,17.8000336 L471.784533,43.9231098 L1.01530226,43.9231098 L1.01530226,17.8000336 L471.784533,17.8000336 L471.784533,17.8000336 Z" id="Rectangle-2-Copy" fill="#E21F25"></path>
+                        <path d="M632.249054,48.1473571 L632.249054,74.2704333 L161.479823,74.2704333 L161.479823,48.1473571 L632.249054,48.1473571 L632.249054,48.1473571 Z" id="Rectangle-2-Copy-2" fill="#E21F25"></path>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                    <g transform="translate(-18.461538, -18.461538)">
+                        <rect id="Rectangle-1" fill="#FEFEFE" x="221.538462" y="18.4615385" width="184.615385" height="609.230769"></rect>
+                        <path d="M627.692308,212.307692 L627.692308,396.923077 L18.4615385,396.923077 L18.4615385,212.307692 L627.692308,212.307692 L627.692308,212.307692 Z" id="Rectangle-1-Copy" fill="#FEFEFE"></path>
+                        <rect id="Rectangle-2" fill="#E21F25" x="258.461538" y="0" width="110.769231" height="646.153846"></rect>
+                        <path d="M646.153846,249.230769 L646.153846,360 L1.13686838e-13,360 L1.13686838e-13,249.230769 L646.153846,249.230769 L646.153846,249.230769 Z" id="Rectangle-2-Copy" fill="#E21F25"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
