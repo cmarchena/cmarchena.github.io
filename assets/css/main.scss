@@ -200,7 +200,7 @@ section {
 }
 /* ********************** .HERO COVER******************************************* */
 hr {
-    border: orange 2px solid;
+    border: gray 1px solid;
 }
 
 .btn-default a {
@@ -304,7 +304,7 @@ label {
         flex-direction: column;
         left: auto;
         right: auto;
-        bottom: 7vw;
+        bottom: 9vw;
         width: 100%;
         text-align: center;
         padding: 4em;
@@ -380,12 +380,12 @@ label {
     }
     @keyframes headpost1 {
         0% {
-            bottom: 2vw;
+            bottom: 0vw;
             opacity: 0;
         }
 
         100% {
-            bottom: 4vw;
+            bottom: 9vw;
             opacity: 1;
         }
     }
@@ -470,3 +470,10 @@ label {
     }
 
   //  ****************** /MOBILE ******************
+.features{
+  ul li{
+    margin-top:20px;
+    font-size:0.9em;
+    text-align: center;
+  }
+}
