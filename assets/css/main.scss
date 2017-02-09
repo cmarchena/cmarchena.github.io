@@ -6,11 +6,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
 @font-face {
     font-family: Abel;
-    src: url("../fonts/abel");
+    src: url("../fonts/abel/Abel-Regular.ttf");
 }
 @font-face {
     font-family: Ubuntu;
-    src: url("{{site.url}}/assets/fonts/ubuntu");
+    src: url("../fonts/ubuntu/Ubuntu-Regular.ttf");
 }
 
 body {
@@ -227,7 +227,7 @@ label {
 }
 
 #hero-container {
-    position: relative;
+
     animation: landinginca1 3s ease-in-out;
 }
 
@@ -262,7 +262,7 @@ label {
     max-width: 1280px;
 }
 
-#header-post-container {
+#header-post-container, #hero-container {
     width: 100%;
     max-height: auto;
     position: relative;
