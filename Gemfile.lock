@@ -24,9 +24,9 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (10.2.4.0)
       execjs
-    bootstrap-sass (3.3.7)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
+      sassc (>= 2.0.0)
     builder (3.2.4)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
@@ -127,7 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.6)
+  bootstrap-sass (~> 3.4.1)
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
